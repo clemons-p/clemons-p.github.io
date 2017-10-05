@@ -3,17 +3,55 @@ body {
   text-align: center;
 }
 
-h1 {
+h1,
+h2,
+footer,
+p {
   font-family: Verdana, sans-serif;
-  font-weight: Normal;
-  font-size: 50px;
+}
+
+p,
+footer {
+  color: Gray;
+}
+
+h1,
+h2 {
   color: White;
+}
+
+h1,
+a,
+p,
+footer {
+  font-weight: normal;
+}
+
+a,
+footer {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 50px;
   text-align: center;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
 }
 
 a {
   color: Aquamarine;
   font-size: 16px;
-  font-family: sans-serif;
+}
+
+p {
+  font-size: 21px;
+}
+
+footer {
+  text-align: right;
 }
   
