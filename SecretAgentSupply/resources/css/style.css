@@ -1,0 +1,292 @@
+/* media queries */
+
+@media only screen and (min-width: 1024px) {
+   .menu a {
+     display: none; 
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav a {
+    display: none;
+  }
+  #products .eyewear {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #banner {
+    max-height: 15rem;
+    width: auto;
+  }
+  #banner .new-arrival h4 {
+    font-size: 0.77rem;
+  }
+  #banner .new-arrival h1 {
+    font-size: 1rem;
+  }
+  #banner .new-arrival {
+    width: 100%;
+    height: 3.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-top: 10rem;
+  }
+  #products .watch {
+    display: none;
+  }
+  #products .eyewear {
+    display: none;
+  }
+  #products .pen {
+    margin-left: 1rem;
+    width: 90%;
+  }
+  #products .pen img {
+    margin-left: 2rem;
+  }
+  #loc-hrs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #loc-hrs .loc .loc-hd {
+    margin: auto;
+    width: 76%;
+  }
+  #loc-hrs .loc p {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  #loc-hrs .hrs .hrs-hd {
+    margin: auto;
+    width: 76%;
+  }
+  #loc-hrs .hrs p {
+    margin-left: 2rem;
+  }
+  #footer .copyright {
+  text-align: center;
+  }
+}
+
+/* universal */
+
+html {
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.82rem;
+  background-color: black;
+}
+
+#header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+  
+#header h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 0.66rem 0rem;
+}
+
+/* banner */
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.new-arrival {
+  width: 21.5rem;
+  background-color: black;
+  color: white;
+  margin-top: 9rem;
+  margin-left: 0;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.new-arrival h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.new-arrival h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+/* nav */
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: firebrick;
+  height: 3rem;
+}
+
+.nav a,
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0rem 2.75rem;
+}
+
+/* products */
+
+#products {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.pen .frame {
+  border: 4px solid black;
+  margin-right: 1rem;
+}
+
+.pen img {
+  height: 9rem;
+  padding: 2rem 3rem;
+}
+
+.pen-des {
+  background-color: black;
+  padding: 0.5rem 0rem;
+  margin-right: 1rem;
+}
+
+.pen-des p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.watch .frame {
+  border: 4px solid black;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.watch img {
+  height: 9rem;
+  padding: 2rem 3rem;
+}
+
+.watch-des {
+  background-color: black;
+  padding: 0.5rem 0rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.watch-des p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.eyewear .frame {
+  border: 4px solid black;
+  height: 13.2rem;
+  margin-left: 1rem;
+}
+
+.eyewear img {
+  height: 4rem;
+  padding: 4.5rem 3rem;
+}
+
+.eyewear-des {
+  background-color: black;
+  padding: 0.5rem 0rem;
+  margin-left: 1rem;
+}
+
+.eyewear-des p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+/* location and hours */
+
+#loc-hrs {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.loc .loc-hd {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  width: 16rem;
+  height: 2rem;
+  margin-right: 7rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.loc p {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.hrs .hrs-hd {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  width: 16rem;
+  height: 2rem;
+  margin-left: 7rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.hrs p {
+  margin-left: 7rem;
+  font:size: 1rem;
+  margin-top: 0.25rem;
+}
+
+/* footer */
+
+#footer {
+  height: 8rem;
+  background-color: black;
+  width: 100%
+}
+
+.copyright {
+  color: white;
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 3.5rem;
+  padding-left: 0.5rem;
+}
