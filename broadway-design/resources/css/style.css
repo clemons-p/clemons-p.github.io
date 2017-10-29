@@ -1,20 +1,23 @@
 body {
   font-family: helvetica, sans-serif;
   text-align: center;
-  background-color: white;  
+  background-color: white; 
+  margin: 0 auto; 
 }
 
 header {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  background-size: 1830px 307px;
+  background-size: cover;
   background-color: lightsteelblue;
+  padding-bottom: 5px;
 }
 
 .bg-image h3 {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
-  height: 27px;
+  height: 30px;
+  width: auto;
   background-color: lightsteelblue;
   font-size: 23px;
   font-weight: bold;
@@ -27,6 +30,7 @@ footer {
   font-size: 11px;
   background-color: dimgrey;
   color: white;
+  height: 25px;
 }
 
 a {
