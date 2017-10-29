@@ -15,7 +15,7 @@
   }
 }
 
-@media only screen and (min-width: 470px), (orientation: landscape) {
+@media only screen and (max-width: 364px) {
   #banner {
     max-height: 15rem;
     width: auto;
