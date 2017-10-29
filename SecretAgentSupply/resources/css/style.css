@@ -1,11 +1,12 @@
 /* media queries */
 
+/* desktop */
 @media only screen and (min-width: 1024px) {
    .menu a {
      display: none; 
   }
 }
-
+/* tablet - portrait and landscape and iPhone 5s - landscape */
 @media only screen and (max-width: 1024px) {
   .nav a {
     display: none;
@@ -14,7 +15,7 @@
     display: none;
   }
 }
-
+/* mobile - standard */
 @media only screen and (max-width: 470px) {
   #banner {
     max-height: 15rem;
