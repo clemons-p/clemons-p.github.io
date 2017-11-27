@@ -28,7 +28,7 @@ html {
 
 /* mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
 
   .navbar .container img {
     display: none;
@@ -121,7 +121,7 @@ html {
 
 /* mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
 
   .jumbotron .container {
     width: 50rem;
@@ -234,7 +234,7 @@ html {
 
 /* mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 834px) {
 
   .col-md-3,
   .col-md-4,
@@ -331,7 +331,7 @@ html {
   
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 834px) {
 
   .col-sm-12,
   .featured-container,
