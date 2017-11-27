@@ -7,7 +7,7 @@ html {
 
 /* nav section */
 
-/* desktop */
+/* desktop - 1200px */
 
 .navbar-default .navbar-nav {
   font-size: 1.1rem;
@@ -26,9 +26,17 @@ html {
   background-color: #f8f8f8;
 }
 
-/* mobile */
+/* mobile - 768px, 320px */
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 768px) {
+
+  .navbar .container img {
+    display: none;
+  } 
+  
+}
+
+@media only screen and (max-width: 320px) {
 
   .navbar .container img {
     display: none;
@@ -38,7 +46,7 @@ html {
 
 /* jumbotron section */
 
-/* desktop */
+/* desktop - 1200px */
 
 #slideshow {
   display: flex;
@@ -119,9 +127,9 @@ html {
   background-color: #006699; 
 }
 
-/* mobile */
+/* mobile - 768px, 320px */
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 768px) {
 
   .jumbotron .container {
     width: 50rem;
@@ -163,7 +171,7 @@ html {
 
 /* main section */
 
-/* desktop */
+/* desktop - 1200px */
 
 .col-md-6 .image-container {
   overflow: hidden;
@@ -232,9 +240,9 @@ html {
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* mobile */
+/* mobile - 768px, 320px */
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 768px) {
 
   .col-md-3,
   .col-md-4,
@@ -331,7 +339,7 @@ html {
   
 }
 
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 768px) {
 
   .col-sm-12,
   .featured-container,
@@ -372,7 +380,7 @@ html {
 
 /* footer section */
 
-/* desktop */
+/* desktop - 1200px */
 
 footer {
   background-color: #f8f8f8;
@@ -416,7 +424,7 @@ footer .container .btn:active {
   background-color: #006699; 
 }
 
-/* mobile */
+/* mobile - 768px, 320px */
 
 @media only screen and (max-width: 320px) {
 
