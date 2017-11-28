@@ -26,25 +26,9 @@ html {
   background-color: #f8f8f8;
 }
 
-/* mobile - 834px, 768px, 568px, 320px */
+/* mobile - 320-768px */
 
-@media only screen and (max-width: 768px) {
-
-  .navbar .container img {
-    display: none;
-  } 
-  
-}
-
-@media only screen and (max-width: 568px) {
-
-  .navbar .container img {
-    display: none;
-  } 
-  
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 
   .navbar .container img {
     display: none;
@@ -135,9 +119,9 @@ html {
   background-color: #006699; 
 }
 
-/* mobile - 834px, 768px, 568px, 320px */
+/* mobile - 768px, 568px, 320px */
 
-@media only screen and (max-width: 834px) {
+/*@media only screen and (max-width: 834px) {
 
   .jumbotron .container {
     width: 55rem;
@@ -155,7 +139,7 @@ html {
     margin-left: 21rem;
   }
   
-}
+}*/
 
 @media only screen and (max-width: 768px) {
 
@@ -287,30 +271,7 @@ html {
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* mobile - 834px, 768px, 568px, 320px */
-
-@media only screen and (max-width: 834px) {
-
-  .col-md-6 .image-container {
-    width: 50rem;
-    height: 23rem;
-  }
-  
-  .col-md-3 {
-    width: 38rem;
-  }
-  
-  .col-md-4 {
-    width: 30rem;
-    margin-bottom: 5rem;
-  }
-  
-  .col-md-4 .image-container {
-    width: 34rem;
-    height: 18rem;
-  }
-  
-}
+/* mobile - 768px, 568px, 320px */
 
 @media only screen and (max-width: 768px) {
 
@@ -334,7 +295,7 @@ html {
   .col-sm-12 .image-container {
     overflow: hidden;
     width: 52rem;
-    height: 19rem;
+    height: 22rem;
     margin-top: 1.4rem;
   }
   
@@ -382,7 +343,7 @@ html {
   .projects-container .image-container {
     overflow: hidden;
     width: 52rem;
-    height: 13rem;
+    height: 19rem;
   }
   
   .projects-container .image-container img {
@@ -409,7 +370,7 @@ html {
   
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) { 
 
   .col-sm-12,
   .featured-container,
@@ -521,15 +482,15 @@ footer .container .btn:active {
   background-color: #006699; 
 }
 
-/* mobile - 834px, 768px, 568px, 320px */
+/* mobile - 768px, 568px, 320px */
 
-@media only screen and (max-width: 834px) {
+/*@media only screen and (max-width: 834px) {
 
   footer {
     margin: 3rem 0 0 0;
   }
 
-}
+}*/
 
 @media only screen and (max-width: 568px) {
 
