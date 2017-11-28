@@ -26,9 +26,17 @@ html {
   background-color: #f8f8f8;
 }
 
-/* mobile - 768px, 320px */
+/* mobile - 834px, 768px, 568px, 320px */
 
 @media only screen and (max-width: 768px) {
+
+  .navbar .container img {
+    display: none;
+  } 
+  
+}
+
+@media only screen and (max-width: 568px) {
 
   .navbar .container img {
     display: none;
@@ -127,7 +135,27 @@ html {
   background-color: #006699; 
 }
 
-/* mobile - 768px, 320px */
+/* mobile - 834px, 768px, 568px, 320px */
+
+@media only screen and (max-width: 834px) {
+
+  .jumbotron .container {
+    width: 55rem;
+  }
+  
+   .jumbotron .container h1 {
+    font-size: 6rem;
+  }
+  
+  .jumbotron .container p {
+    font-size: 1.4rem;
+  }
+  
+  .jumbotron .container .btn {
+    margin-left: 21rem;
+  }
+  
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -149,6 +177,25 @@ html {
     margin-top: 10rem;
   }
 
+}
+
+@media only screen and (max-width: 568px) {
+
+  .jumbotron .container {
+    width: 40rem;
+    margin-top: 7rem;
+  }
+  
+  .jumbotron .container h1 {
+    font-size: 4.2rem;
+    letter-spacing: 1px;
+  }
+  
+  .jumbotron .container .btn {
+    margin-left: 13.5rem;
+    margin-top: 8rem;
+  }
+  
 }
 
 @media only screen and (max-width: 320px) {
@@ -240,7 +287,30 @@ html {
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* mobile - 768px, 320px */
+/* mobile - 834px, 768px, 568px, 320px */
+
+@media only screen and (max-width: 834px) {
+
+  .col-md-6 .image-container {
+    width: 50rem;
+    height: 23rem;
+  }
+  
+  .col-md-3 {
+    width: 38rem;
+  }
+  
+  .col-md-4 {
+    width: 30rem;
+    margin-bottom: 5rem;
+  }
+  
+  .col-md-4 .image-container {
+    width: 34rem;
+    height: 18rem;
+  }
+  
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -349,6 +419,33 @@ html {
   
 }
 
+@media only screen and (max-width: 568px) {
+  
+  .col-sm-12 .image-container {
+    width: 38rem;
+  }
+  
+  .left-col {
+    width: 70%;
+  }
+  
+  .left-col h3,
+  .right-col h3,
+  .projects-container h3 {
+    font-size: 1.2rem;
+  }
+  
+  .featured-container p,
+  .projects-container p {
+    font-size: 0.9rem;
+  }
+  
+  .projects-container .image-container {
+    width: 38rem;
+  }
+  
+}
+
 @media only screen and (max-width: 320px) {
 
   .col-sm-12 .image-container,
@@ -424,7 +521,36 @@ footer .container .btn:active {
   background-color: #006699; 
 }
 
-/* mobile - 768px, 320px */
+/* mobile - 834px, 768px, 568px, 320px */
+
+@media only screen and (max-width: 834px) {
+
+  footer {
+    margin: 3rem 0 0 0;
+  }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+  footer {
+    padding: 1.5rem 0 3rem 0;
+  }
+
+  footer .container {
+    width: 40rem;
+  }
+  
+  footer .container h1 {
+    font-size: 2.25rem;
+  }
+  
+  footer .container .btn {
+    margin-left: 13.5rem;
+    margin-top: 1.5rem;
+  }
+
+}
 
 @media only screen and (max-width: 320px) {
 
