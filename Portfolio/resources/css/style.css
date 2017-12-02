@@ -89,6 +89,10 @@ nav a:active {
 
 @media only screen and (max-width: 736px) {
 
+  nav {
+    padding: 0.8rem 1rem;
+  } 
+
   nav h1 {
     letter-spacing: 0.25px;
   }
@@ -98,7 +102,7 @@ nav a:active {
 @media only screen and (max-width: 667px) {
 
   nav {
-    padding: 0.95rem 2rem;
+    padding: 0.95rem 1rem;
   } 
 
   nav h1 {
@@ -123,9 +127,6 @@ nav a:active {
     height: 2.5rem;
   }
 
-  nav {
-    padding: 0.8rem 1.15rem;
-  } 
 
   nav h1 {
     font-size: 1rem;
@@ -257,20 +258,21 @@ main .item .item-description p {
 
 /* mobile */
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 1112px) {
 
   main .container {
     margin: 3rem auto;
-  }
-
-  main .container .subhead h2 {
-    width: 90%;
   }
 
   main .container .top-row, 
   main .container .middle-row,
   main .container .bottom-row {
     flex-direction: column;
+    width: 85%;
+  }
+  
+  main .container .subhead h2 {
+    width: 85%;
   }
   
   main .container .window {
@@ -280,6 +282,10 @@ main .item .item-description p {
   main .container .window p {
     text-align: center;
   }
+
+}
+
+@media only screen and (max-width: 834px) {
   
   main .item a {
     padding-left: 1.25rem;
@@ -415,7 +421,7 @@ footer {
 
   .copyright p {
     font-size: 0.7rem;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 1rem;
   }
 
 }
@@ -424,7 +430,6 @@ footer {
 
   .copyright p {
     font-size: 0.6rem;
-    padding: 0.7rem 1.15rem;
   }
 
 }
