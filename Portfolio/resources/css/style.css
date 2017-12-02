@@ -1,0 +1,424 @@
+/* universal styles */
+
+html {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Cabin, sans-serif;
+  font-weight: 400;
+  background: linear-gradient(180deg, #C3CCDB, #fff);
+  background-repeat: no-repeat;
+}
+
+/* header section */
+
+/* desktop */
+
+header {
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #444;
+  border-bottom: 1px solid #C3CCDB;
+  /* box-shadow: 0px 3px 7px #888; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.6rem 3rem;
+}
+
+nav h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+nav h1 span {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #C3CCDB;
+  padding-left: 1rem;
+  letter-spacing: 1px;
+}
+
+nav a {
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  transition: color 0.5s;
+  color: #C3CCDB;
+}
+
+nav a:active {
+  color: #C3CCDB;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 834px) {
+
+  nav {
+    padding: 0.8rem 2rem;
+  } 
+
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav h1 span {
+    font-size: 1.15rem;
+  }
+  
+  nav a {
+    font-size: 0.9rem;
+  } 
+
+}
+
+@media only screen and (max-width: 736px) {
+
+  nav h1 {
+    letter-spacing: 0.25px;
+  }
+
+}
+
+@media only screen and (max-width: 667px) {
+
+  nav {
+    padding: 0.95rem 2rem;
+  } 
+
+  nav h1 {
+    font-size: 1.25rem;
+  }
+  
+  nav h1 span {
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    letter-spacing: 0.25px;
+  }
+  
+  nav a {
+    font-size: 0.8rem;
+  } 
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  header {
+    height: 2.5rem;
+  }
+
+  nav {
+    padding: 0.8rem 1.15rem;
+  } 
+
+  nav h1 {
+    font-size: 1rem;
+  }
+  
+  nav h1 span {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+  
+  nav a {
+    font-size: 0.7rem;
+  } 
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  nav h1 {
+    font-size: 0.95rem;
+  }
+  
+  nav h1 span {
+    font-size: 0.75rem;
+  }  
+  
+  nav a {
+    font-size: 0.6rem;
+  } 
+
+}
+
+/* main section */
+
+/* desktop */
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 4rem auto;
+}
+
+main .container .subhead h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #666;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #999;
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+main .container .top-row, 
+main .container .middle-row,
+main .container .bottom-row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.window {
+  background-color: #fff;
+  width: 100%;
+  height: 50%;
+  margin: 1rem;
+  border: 1px solid #C3CCDB;
+}
+
+.window img {
+  width: 100%;
+  border-bottom: 1px solid #C3CCDB;
+}
+
+.window img:hover {
+  opacity: 0.7;
+  transition: opacity 0.25s linear;
+}
+
+.window h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #444;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 0;
+}
+
+.window p {
+  color: #606060;
+  line-height: 1.4;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+main .item {
+  width: 100%;
+  padding: 4.5rem 0;
+  /* background-color: #606060; */
+}
+
+main .item img {
+  width: 80%;
+}
+
+main .item a {
+  text-decoration: none;
+  color: #606060;
+  letter-spacing: 0.5px;
+  padding-left: 2.35rem;
+}
+
+main .item a:hover,
+main .item a:active {
+  text-decoration: underline;
+}
+
+main .item .item-description p {
+  padding: 1.5rem 0 0 3rem;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  color: #444;
+  width: 45%;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 834px) {
+
+  main .container {
+    margin: 3rem auto;
+  }
+
+  main .container .subhead h2 {
+    width: 90%;
+  }
+
+  main .container .top-row, 
+  main .container .middle-row,
+  main .container .bottom-row {
+    flex-direction: column;
+  }
+  
+  .window {
+    margin: 1rem auto;
+  }
+  
+  .window p {
+    text-align: center;
+  }
+  
+  main .item a {
+    padding-left: 1.25rem;
+  }
+  
+  main .item img {
+    width: 100%;
+  }
+
+  main .item .item-description p {
+    width: 65%;
+    padding-left: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 736px) {
+
+  main .item .item-description p {
+    width: 90%;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 667px) {
+
+  main .container {
+    margin: 2.25rem auto;
+  }
+  
+  main .item a,
+  main .item .item-description p {
+    font-size: 0.9rem;
+  }  
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  main .container .subhead h2 {
+    padding-top: 1.5rem;
+  }
+  
+  .window {
+    margin: 0.75rem auto;
+  }
+  
+  main .item {
+    padding-top: 3.5rem;
+  }
+  
+  main .item a {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+  
+  main .item .item-description p {
+    font-size: 0.8rem;
+    width: 80%;
+    padding: 1rem 0 0.5rem 1.15rem;
+  }
+  
+}
+
+@media only screen and (max-width: 375px) {
+
+  main .item a,
+  main .item .item-description p {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  main .container .subhead h2 {
+    font-size: 1.25rem;
+  }
+  
+  .window h3 {
+    font-size: 1.15rem;
+  }
+  
+  main .item a,
+  main .item .item-description p {
+    font-size: 0.6rem;
+  }
+  
+}
+
+/* footer section */
+
+/* desktop */
+
+footer {
+  width: 100%;
+  height: 2rem;
+  border-top: 1px solid #C3CCDB;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: #444;
+}
+
+.copyright p {
+  font-size: 0.8rem;
+  color: #C3CCDB;
+  text-align: right;
+  padding: 0.65rem 3rem;
+  letter-spacing: 0.5px;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 834px) {
+
+  .copyright p {
+    padding: 0.65rem 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 667px) {
+
+  .copyright p {
+    font-size: 0.7rem;
+    padding: 0.7rem 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  .copyright p {
+    font-size: 0.6rem;
+    padding: 0.7rem 1.15rem;
+  }
+
+}
