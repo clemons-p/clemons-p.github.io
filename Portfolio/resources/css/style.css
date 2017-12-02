@@ -322,7 +322,7 @@ main .item .item-description p {
 @media only screen and (max-width: 568px) {
 
   main .container .window p {
-    font-size: 0.7rem;
+    font-size: 0.625rem;
   }
 
 }
