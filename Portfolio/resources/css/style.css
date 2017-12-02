@@ -282,6 +282,14 @@ main .item .item-description p {
   main .container .window p {
     text-align: center;
   }
+  
+  main .item .item-description p {
+    width: 80%;
+  }
+  
+  main .item img {
+    width: 100%;
+  }
 
 }
 
@@ -289,10 +297,6 @@ main .item .item-description p {
   
   main .item a {
     padding-left: 1.25rem;
-  }
-  
-  main .item img {
-    width: 100%;
   }
 
   main .item .item-description p {
