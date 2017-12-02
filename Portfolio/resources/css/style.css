@@ -291,7 +291,7 @@ main .item .item-description p {
 
   main .item .item-description p {
     width: 65%;
-    padding-left: 2rem;
+    padding: 1.5rem 0 1.5rem 2rem;
   }
 
 }
@@ -300,8 +300,7 @@ main .item .item-description p {
 
   main .item .item-description p {
     width: 90%;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 0 1rem 2rem;
   }
 
 }
