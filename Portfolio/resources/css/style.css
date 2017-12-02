@@ -322,8 +322,13 @@ main .item .item-description p {
 @media only screen and (max-width: 568px) {
 
   main .container .window p {
-    font-size: 0.625rem;
+    font-size: 0.65rem;
   }
+  
+  main .item a,
+  main .item .item-description p {
+    font-size: 0.65rem;
+  }  
 
 }
 
@@ -371,11 +376,6 @@ main .item .item-description p {
   
   main .container .window h3 {
     font-size: 1.15rem;
-  }
-  
-  main .item a,
-  main .item .item-description p {
-    font-size: 0.6rem;
   }
   
 }
