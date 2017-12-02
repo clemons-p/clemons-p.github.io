@@ -319,6 +319,14 @@ main .item .item-description p {
 
 }
 
+@media only screen and (max-width: 568px) {
+
+  .window p {
+    font-size: 0.8rem;
+  }
+
+}
+
 @media only screen and (max-width: 414px) {
 
   main .container .subhead h2 {
