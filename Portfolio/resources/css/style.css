@@ -248,7 +248,7 @@ main .item a:active {
 }
 
 main .item .item-description p {
-  padding: 1.5rem 0 0 3rem;
+  padding: 1.5rem 0 1.5rem 3rem;
   letter-spacing: 0.5px;
   line-height: 1.4;
   color: #444;
