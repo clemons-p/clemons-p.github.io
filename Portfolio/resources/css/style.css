@@ -226,6 +226,19 @@ main .container .window p {
   padding: 0 1rem 1rem 1rem;
 }
 
+main .container .window a {
+  text-decoration: none;
+  color: #909090;
+}
+
+main .container .window a:hover {
+  text-decoration: underline;
+}
+
+main .container .window a:active {
+  text-decoration: underline;
+}
+
 main .item {
   width: 100%;
   padding: 4.5rem 0;
