@@ -228,7 +228,7 @@ main .container .window p {
 
 main .container .window a {
   text-decoration: none;
-  color: #909090;
+  color: #999;
 }
 
 main .container .window a:hover {
