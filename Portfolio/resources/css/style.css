@@ -183,9 +183,10 @@ main .container .subhead h2 {
   margin: 0 auto;
 }
 
-main .container .top-row, 
-main .container .middle-row,
-main .container .bottom-row {
+main .container .first-row, 
+main .container .second-row,
+main .container .third-row,
+main .container .fourth-row {
   display: flex;
   width: 90%;
   margin: 0 auto;
@@ -277,9 +278,10 @@ main .item .item-description p {
     margin: 3rem auto;
   }
 
-  main .container .top-row, 
-  main .container .middle-row,
-  main .container .bottom-row {
+  main .container .first-row, 
+  main .container .second-row,
+  main .container .third-row,
+  main .container .fourth-row {
     flex-direction: column;
     width: 85%;
   }
